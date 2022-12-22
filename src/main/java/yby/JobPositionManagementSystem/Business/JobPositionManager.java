@@ -23,7 +23,7 @@ public class JobPositionManager implements yby.JobPositionManagementSystem.Busin
 
     @Override
     public List<JobPosition> getAll() {
-        System.out.println("All Positions :\n");
+        System.out.println("All Positions are displayed :\n");
         return this.jobPositionDao.findAll();
     }
 }
